@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Project</title>
+</head>
+<body>
+  <h2>Register</h2>
+  <input id="reg-username" placeholder="username">
+  <input id="reg-password" placeholder="password">
+  <input id="reg-firstname" placeholder="first name">
+  <input id="reg-lastname" placeholder="last name">
+  <input id="reg-salary" placeholder="salary">
+  <input id="reg-age" placeholder="age">
+  <button id="register-btn">Register</button>
+
+  <h2>Sign In</h2>
+  <input id="signin-username" placeholder="username">
+  <input id="signin-password" placeholder="password">
+  <button id="signin-btn">Sign In</button>
+
+  <h2>Searches</h2>
+  <p>
+    <input id="first-input" placeholder="first name">
+    <input id="last-input" placeholder="last name">
+    <button id="name-btn">Search by Name</button>
+  </p>
+  <p>
+    <input id="username-input" placeholder="userid">
+    <button id="username-btn">Search by Userid</button>
+  </p>
+  <p>
+    <input id="salary-min" placeholder="min salary">
+    <input id="salary-max" placeholder="max salary">
+    <button id="salary-btn">Search by Salary</button>
+  </p>
+  <p>
+    <input id="age-min" placeholder="min age">
+    <input id="age-max" placeholder="max age">
+    <button id="age-btn">Search by Age</button>
+  </p>
+  <p>
+    <input id="john-input" placeholder="userid (e.g. john)">
+    <button id="after-btn">Registered After</button>
+    <button id="sameday-btn">Registered Same Day</button>
+  </p>
+  <p>
+    <button id="never-btn">Never Signed In</button>
+    <button id="today-btn">Registered Today</button>
+  </p>
+
+  <h2>Results</h2>
+  <table id="table" border="1">
+    <thead>
+      <tr>
+        <th>Username</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Salary</th>
+        <th>Age</th>
+        <th>Register Day</th>
+        <th>Sign In Time</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="index.js"></script>
+</body>
+</html>
